@@ -33,7 +33,7 @@ This group project involves analyzing a real-world dataset to develop predictive
 - `Credit_Approval_Prediction_Group_Project.ipynb`: Jupyter Notebook containing the entire analysis, including EDA, feature engineering, model development, evaluation, and summaries.
 - `data/`: Folder containing the datasets used for analysis:
   - `credit_record.csv`: Contains credit history data.
-  - `application_record.zip`: Contains the application record data. This file needs to be unzipped before running the notebook.
+  - `application_record.zip`: Contains the application record data. This file is downloaded and unzipped within the notebook.
 
 ## Tools and Libraries Used
 - Python
@@ -42,12 +42,12 @@ This group project involves analyzing a real-world dataset to develop predictive
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- Requests
 
 ## How to Run
 1. Clone this repository: `git clone https://github.com/mredshaw/Credit_Approval_Prediction.git`
-2. Navigate to the `data` folder and unzip the `application_record.zip` file.
-3. Open the Jupyter Notebook: `Credit_Approval_Prediction_Group_Project.ipynb`
-4. Execute the cells in the notebook to see the analysis and results.
+2. Open the Jupyter Notebook: `Credit_Approval_Prediction_Group_Project.ipynb`
+3. Execute the cells in the notebook to download, unzip, and load the data, then see the analysis and results.
 
 ## Key Insights
 The notebook provides detailed insights into the factors influencing credit approval and evaluates the performance of various predictive models.
